@@ -1,0 +1,204 @@
+body, ul, li, h1, h2, h3, a{
+    /* margin: 0; */
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a151c;
+    max-width: 1500px;
+    justify-content: center;
+    
+
+}
+
+h1{
+    margin: 0px;
+    color: #3a151c;
+    /* font-size: 1000%; */
+    /* text-align: right; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #FBC86D; */
+    color: #3a151c;
+    padding: 20px;
+    margin: auto;
+    /* max-width: 2000px; */
+}
+
+.logo {
+    background-color: #ffdc9b;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #ffdc9b;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+body section .welcome{
+    /* max-width: 100%; */
+    align-content: center;
+    font-size: 600%;
+    letter-spacing: 7px;
+    line-height: 140%;
+}
+
+body section .welcome h2{
+    letter-spacing: 0px;
+}
+
+body section .welcome h2{
+    margin: 0px;
+    font-size: 100%;
+}
+
+.banner {
+    justify-content: space-between;
+    display: flex;
+}
+
+.banner img{
+    /* max-width: 100%; */
+    /* display: flex; */
+    max-width: 35%;
+    justify-content: center;
+    /* border-radius: 20px; */
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+body section .welcome{
+    /* position: absolute; */
+    text-align: right;
+    /* top: 10%; */
+    /* right: 5%; */
+}
+
+.welcome a {
+    text-decoration: none;
+    font-weight: bolder;
+    animation: fadein 3s;
+    /* animation: ; */
+}
+
+@keyframes fadein {
+    0% { opacity: 0;}
+}
+
+h3{
+    font-size: 60px;
+}
+
+main{
+    max-width: 100%;
+    padding-top: 40px;
+    /* width: 1200px; */
+    /* margin: 80px auto; */
+}
+
+p{
+    font-size: 30px;
+}
+
+.sale {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    /* padding: 20px; */
+
+}
+
+
+
+.sale > div > img {
+    max-width: 650px;
+    /* max-width: 35%; */
+    /* border-radius: 10px; */
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+
+
+.pitch {
+    align-content: center;
+}
+
+.pitch-heading {
+        /* display: inline-block; */
+    /* padding-right: 20px; */
+    /* padding-top: 50px; */
+    padding-bottom: 20px;
+    /* text-align: left; */
+    /* animation: fadein 3s; */
+}
+
+/* 
+.sale{
+    background-color: rgb(207, 231, 255)
+}
+*/
+
+footer div{
+    background-color: #ffdc9b;
+    padding: 20px;
+}
+
+footer div p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* 
+ID's can be restricting, try to avoid
+#Sale{
+    background-color: rgb(175, 215, 255)
+}
+*/
+
+
+/* 
+div.pitch.anothertag{
+    display: inline-block;
+    padding: 1%;
+}
+*/
+
+
+/* 
+put lists side by side
+white-space: nowrap;
+*/
+
+
+/* 
+Any link with website in the name will be selected
+
+a[href*="website"]{
+}
+
+$ sign used to indicate ending with
+a[href$=".usa"]{
+}
+
+$ can be used to select file type
+a[href$=".pdf"]{
+}
+
+*/
+
+
+/* 
+div.pitch
+- selects everything WITH these properties
+
+div .pitch a
+- location based
+*/
