@@ -4,11 +4,9 @@ body, ul, li, h1, h2, h3, a{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #3a151c;
-    max-width: 1500px;
     justify-content: center;
-    
-
 }
+
 
 h1{
     margin: 0px;
@@ -20,12 +18,15 @@ h1{
 nav {
     display: flex;
     justify-content: center;
-    /* background-color: #FBC86D; */
+    width: 100%;
     background-color: #ffdc9b;
     color: #3a151c;
     padding: 20px;
     margin: auto;
+    /* background-color: #FBC86D; */
+    /* overflow: hidden; */
     /* max-width: 2000px; */
+    /* height: 100vh; */
 }
 
 nav a {
@@ -117,8 +118,14 @@ h3{
 }
 
 main{
-    max-width: 100%;
+    /* max-width: 100%; */
+    /* display: flex; */
+    max-width: 1500px;
     padding-top: 40px;
+    margin: 0 auto;
+    /* align-content: center; */
+    /* justify-content: center; */
+
     /* width: 1200px; */
     /* margin: 80px auto; */
 }
@@ -161,6 +168,18 @@ p{
     /* animation: fadein 3s; */
 }
 
+
+.pitch-heading a {
+    text-decoration: none;
+    /* font-size: 60px; */
+}
+
+.pitch-heading h3 {
+    font-size: 35px;
+    
+
+}
+
 /* 
 .sale{
     background-color: rgb(207, 231, 255)
@@ -180,28 +199,66 @@ p{
 }
 
 .collage img {
-    display: flexbox;
+    /* display: flex; */
     max-width: 250px;
     padding: 0%;
     margin: 0%;
 
 }
 
-footer div{
-    padding: 20px;
-    display: flex;
+.creator {
+    background-color: #ffdc9b;
+    /* display: flex; */
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* padding-left: ; */
 }
 
-footer a{
-    font-size: 25px;
-    padding: 20px;
-    /* padding-left: 20px; */
+.linkContainer {
     display: flex;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    text-decoration: none;
+    justify-content: space-between;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.creator a {
+    padding-bottom: 10px;
+}
+
+.endpoints {
+    align-content: center;
+    padding-left: 32px;
+}
+
+.endpoints a {
+    justify-content: start;
+    /* padding-bottom: 10px; */
+}
+
+.contact {
+    align-content: center;
+    padding-right: 32px;
+}
+
+.contact a {
+    justify-content: end;
     font-weight: bold;
-    background-color: #ffdc9b;
+    font-size: 40px;
+}
+
+.developer a {
+    font-size: 20px;
+}
+
+footer a {
+    display: flex;
+    text-decoration: none;
+    /* justify-content: end; */
+    /* font-weight: bold; */
+    font-size: 25px;
+    /* padding: 20px; */
 }
 
 
