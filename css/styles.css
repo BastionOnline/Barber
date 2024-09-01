@@ -19,8 +19,9 @@ h1{
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     /* background-color: #FBC86D; */
+    background-color: #ffdc9b;
     color: #3a151c;
     padding: 20px;
     margin: auto;
@@ -32,7 +33,7 @@ nav a {
     padding: 10px;
     font-weight: bold;
     font-size: 30px;
-    background-color: #ffdc9b;
+    /* background-color: #ffdc9b; */
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -43,6 +44,18 @@ nav a {
 
 .aboutPage {
     padding: 16px 32px 0px 32px;
+}
+
+.background1 {
+    background-color: #ffefd1;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.background2 {
+    background-color: #ffefd1;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
 }
 
 
@@ -80,9 +93,10 @@ body section .welcome h2{
     padding-right: 32px;
 }
 
-body section .welcome{
+.welcome{
     /* position: absolute; */
     text-align: right;
+    padding: 32px 32px;
     /* top: 10%; */
     /* right: 5%; */
 }
@@ -134,7 +148,8 @@ p{
 
 .pitch {
     align-content: center;
-    padding-right: 32px;
+    /* padding-right: 32px; */
+    padding: 32px 32px;
 }
 
 .pitch-heading {
