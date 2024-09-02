@@ -21,7 +21,10 @@ nav {
     width: 100%;
     background-color: #ffdc9b;
     color: #3a151c;
-    padding: 20px;
+    /* background-color: #D26059; */
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: auto;
     /* background-color: #FBC86D; */
     /* overflow: hidden; */
@@ -40,7 +43,7 @@ nav a {
 }
 
 .homePage {
-    padding: 16px 32px 0px 32px;
+    padding: 0px 32px 0px 32px;
 }
 
 .aboutPage {
@@ -204,21 +207,24 @@ p{
 
 .collage {
     justify-content: center;
-    align-content: center;
     display: flex;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-
-    /* background-color: black; */
 
 }
 
-.collage img {
-    /* display: flex; */
+.collage .group {
+    display: flex;
+    /* padding-left: 80px; */
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+
+.collage .group img {
     max-width: 250px;
     padding: 0%;
     margin: 0%;
-
+    
+    /* display: flex; */
 }
 
 .creator {
@@ -231,40 +237,105 @@ p{
     /* padding-left: ; */
 }
 
-.linkContainer {
-    display: flex;
-    justify-content: space-between;
-    width: 1500px;
-    margin: 0 auto;
-}
 
 .creator a {
     padding-bottom: 10px;
 }
 
-.endpoints {
-    align-content: center;
-    padding-left: 32px;
+.linkContainer {
+    /* display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    margin: 0 auto; */
+    /* background-color: #3a151c; */
+    /* background-color: #D26059; */
+    /* background-color: #ffdc9b; */
+    background-color: #fbc86d;
+
 }
 
-.endpoints a {
-    justify-content: start;
-    /* padding-bottom: 10px; */
-}
+
 
 .contact {
-    align-content: center;
-    padding-right: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* align-content: center; */
+    /* padding-right: 32px; */
 }
 
 .contact a {
-    justify-content: end;
+    /* justify-content: end; */
     font-weight: bold;
+    /* font-weight: 600; */
     font-size: 40px;
+    padding: 0;
+    /* color: white; */
+}
+
+
+.endpoints {
+    /* align-content: center; */
+    /* padding-left: 32px; */
+    /* display: flex; */
+    padding-top: 20px;
+    display: inline-flex;
+    /* justify-content: center; */
+    gap: 100px;
+    /* margin: 0 auto; */
+}
+
+.endpoint-container {
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 20px; */
+    /* align-content: center; */
+    /* justify-content: start; */
+    /* padding-bottom: 10px; */
+    /* display: flex; */
+    /* gap: 10px; */
+}
+
+
+.developer-container {
+    display: flex;
+    justify-content: center;
 }
 
 .developer a {
+    justify-content: center;
+
     font-size: 20px;
+}
+
+.aboutMe h1 {
+    font-size: 60px;
+    /* letter-spacing: 8px; */
+    line-height: 1px;
+}
+
+.aboutHeading {
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+}
+
+.bio #profilePhoto img{
+    max-width: 600px;
+}
+
+.bio #profilePhoto {
+    display: flex;
+    justify-content: right;
+
+}
+
+.bio {
+    display: inline-flex;
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+.bio div {
+    align-content: center;
 }
 
 footer a {
