@@ -307,6 +307,10 @@ p{
     font-size: 20px;
 }
 
+.aboutMe {
+    padding: 32px;
+}
+
 .aboutMe h1 {
     font-size: 60px;
     /* letter-spacing: 8px; */
