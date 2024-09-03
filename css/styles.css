@@ -48,7 +48,9 @@ nav a {
 
 
 .background1 {
+    /* padding: 32px; */
     /* background-color: #ffefd1; */
+    z-index: 1;
     background: linear-gradient(45deg, #ffe5b4 0%,#fff2d9 80%);
     /* background: linear-gradient(45deg, #fbc86d 0%,#ffdc9b 100%); */
     border-top-left-radius: 80px;
@@ -57,12 +59,26 @@ nav a {
 
 .background2 {
     /* background-color: #ffefd1; */
+    z-index: 1;
     background: linear-gradient(45deg, #ffe5b4 0%,#fff2d9 80%);
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
 }
 
+.bgInterior {
+    z-index: 2;
+    /* padding: ; */
+    /* background-color: aliceblue; */
+    /* background: radial-gradient(circle, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.5) 100%); */
 
+    /* background-size: 30px; */
+    /* opacity: 50%; */
+
+}
+
+.bgInterior section {
+    opacity: 100%;
+}
 
 .banner {
     display: flex;
@@ -89,11 +105,18 @@ nav a {
 }
 
 @media (max-width: 1467px) {
+    .nav a {
+        font-size: clamp(50px, 1vw, 60px);
+    }
+
+    .background1 {
+        padding-bottom: 32px;
+    }
     .banner {
         display: inline-block;
         align-content: center;
         text-align: center;
-        height: calc(100vh - 75px - 15px);
+        height: calc(100vh - 75px - 15px - 32px);
 
     } 
     .banner div {
