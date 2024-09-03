@@ -507,9 +507,9 @@ p{
     /* font-weight: 600; */
     font-size: 40px;
     padding: 0;
+    text-align: center;
     /* color: white; */
 }
-
 
 .endpoints {
     /* align-content: center; */
@@ -522,6 +522,17 @@ p{
     /* margin: 0 auto; */
 }
 
+@media (max-width: 1467px) {
+    .contact a {
+        font-size: clamp(50px, 1vw, 60px);
+    }
+
+    .endpoints a {
+        font-size: clamp(30px, 1vw, 40px);
+
+    }
+
+}
 .endpoint-container {
     display: flex;
     justify-content: center;
@@ -561,7 +572,7 @@ footer a {
 
 /* add viewport at px with 1467 */
 
-@media (min-width: 1467px) {
+@media (max-width: 1467px) {
 
 }
 
