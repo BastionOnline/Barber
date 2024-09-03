@@ -336,13 +336,13 @@ p{
     /* padding-top: 20px; */
 }
 
-.bio #profilePhoto img{
-    max-width: 600px;
+.profilePhoto img{
+    max-width: 80%;
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
 }
 
-.bio #profilePhoto {
+.profilePhoto {
     display: flex;
     justify-content: right;
 
@@ -356,6 +356,52 @@ p{
 
 .bio div {
     align-content: center;
+}
+
+@media (max-width: 1467px) {
+    .aboutMe h1 {
+        font-size: clamp(40px, 8vw, 60px);
+        line-height: 3rem;
+        /* padding: 32px; */
+        /* margin: 32px; */
+    }
+
+    /* .aboutMe p {
+        font-size: clamp(15px 4em, 80px);
+    } */
+
+    .aboutHeading {
+        padding: 0px;
+    }
+
+    .bio {
+        display: inline;
+        gap: 40px;
+        padding-bottom: 30px;
+    }
+    
+    .profilePhoto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profilePhoto img{
+        /* max-width: 50%; */
+        max-width: clamp(300px, 50%, 800px);
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }    
+
+    .profilePhotoContainer {
+        display: inline;
+        text-align: center;
+    }
+
+    .blurb {
+        /* display: grid; */
+        margin: 32px 0px 32px 0px;
+        /* padding: ; */
+    }
 }
 
 .collage {
@@ -378,6 +424,14 @@ p{
     margin: 0%;
     
     /* display: flex; */
+}
+
+@media (max-width: 1467px) {
+    .collage .group {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 
