@@ -19,7 +19,10 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: #ffdc9b;
+    /* background-color: #ffdc9b; */
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* background: linear-gradient(to bottom, #ffc578 0%,#fb9d23 100%); */
+    background: linear-gradient(45deg, #fbc86d 0%,#ffdc9b 100%);
     color: #3a151c;
     /* background-color: #D26059; */
     /* padding: 20px; */
@@ -44,20 +47,23 @@ nav a {
 
 .homePage {
     padding: 0px 32px 0px 32px;
+    /* background: linear-gradient(45deg, #ffe5b4 0%,#fff2d9 80%); */
+
 }
 
-.aboutPage {
-    padding: 16px 32px 0px 32px;
-}
+
 
 .background1 {
-    background-color: #ffefd1;
+    /* background-color: #ffefd1; */
+    background: linear-gradient(45deg, #ffe5b4 0%,#fff2d9 80%);
+    /* background: linear-gradient(45deg, #fbc86d 0%,#ffdc9b 100%); */
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
 }
 
 .background2 {
-    background-color: #ffefd1;
+    /* background-color: #ffefd1; */
+    background: linear-gradient(45deg, #ffe5b4 0%,#fff2d9 80%);
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
 }
@@ -86,6 +92,10 @@ body section .welcome h2{
     /* background-color: #ffdc9b; */
 }
 
+.banner div {
+    animation: fadein 2s;
+}
+
 .banner img{
     /* max-width: 100%; */
     /* display: flex; */
@@ -108,7 +118,7 @@ body section .welcome h2{
 .welcome a {
     text-decoration: none;
     font-weight: bolder;
-    animation: fadein 3s;
+    /* animation: fadein 3s; */
     /* animation: ; */
 }
 
@@ -178,10 +188,6 @@ p{
     /* font-size: 60px; */
 }
 
-.pitch-heading h3 {
-    /* font-size: 35px; */
-    /* font-size: 50px; */
-}
 
 .pitch .aboutPage h3 {
     /* padding: 0px; */
@@ -196,14 +202,6 @@ p{
 
     text-decoration: none;
 }
-
-
-/* 
-.sale{
-    background-color: rgb(207, 231, 255)
-}
-*/
-
 
 .collage {
     justify-content: center;
@@ -226,6 +224,54 @@ p{
     
     /* display: flex; */
 }
+
+
+/* --------- About Me Page Styles ---------- */
+
+.aboutPage {
+    padding: 16px 32px 0px 32px;
+}
+
+.aboutMe {
+    padding: 32px;
+}
+
+.aboutMe h1 {
+    font-size: 60px;
+    /* letter-spacing: 8px; */
+    line-height: 1px;
+}
+
+.aboutHeading {
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+}
+
+.bio #profilePhoto img{
+    max-width: 600px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.bio #profilePhoto {
+    display: flex;
+    justify-content: right;
+
+}
+
+.bio {
+    display: inline-flex;
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+.bio div {
+    align-content: center;
+}
+
+
+/* --------- Footer Styles ---------- */
+
 
 .creator {
     background-color: #ffdc9b;
@@ -253,7 +299,6 @@ p{
     background-color: #fbc86d;
 
 }
-
 
 
 .contact {
@@ -301,48 +346,13 @@ p{
     justify-content: center;
 }
 
+
 .developer a {
     justify-content: center;
-
+    padding-top: 20px;
     font-size: 20px;
 }
 
-.aboutMe {
-    padding: 32px;
-}
-
-.aboutMe h1 {
-    font-size: 60px;
-    /* letter-spacing: 8px; */
-    line-height: 1px;
-}
-
-.aboutHeading {
-    padding-bottom: 20px;
-    /* padding-top: 20px; */
-}
-
-.bio #profilePhoto img{
-    max-width: 600px;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-}
-
-.bio #profilePhoto {
-    display: flex;
-    justify-content: right;
-
-}
-
-.bio {
-    display: inline-flex;
-    gap: 40px;
-    padding-bottom: 80px;
-}
-
-.bio div {
-    align-content: center;
-}
 
 footer a {
     display: flex;
@@ -357,6 +367,10 @@ footer a {
 
 
 /* add viewport at px with 1467 */
+
+@media (min-width: 1467px) {
+
+}
 
 
 /* 
