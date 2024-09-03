@@ -42,6 +42,9 @@ nav a {
     padding: 0px 32px 0px 32px;
 }
 
+.aboutPage {
+    padding: 16px 32px 0px 32px;
+}
 
 
 .background1 {
@@ -82,6 +85,7 @@ nav a {
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
     padding-right: 32px;
+
 }
 
 @media (max-width: 1467px) {
@@ -89,6 +93,8 @@ nav a {
         display: inline-block;
         align-content: center;
         text-align: center;
+        height: calc(100vh - 75px - 15px);
+
     } 
     .banner div {
         animation: fadein 2s;
@@ -136,9 +142,6 @@ nav a {
 @media (max-width: 1467px) {
     .welcome{
         align-content: center;
-        /* font-size:40pt; */
-        /* font-size:300%; */
-        /* font-size: clamp(1vw); */
         font-size: clamp(20px, 8vw, 60px);
 
         /* font-size: 5vw; */
@@ -159,10 +162,6 @@ nav a {
         font-weight: bolder;
     }
 }
-
-
-
-
 
 
 @keyframes fadein {
@@ -198,8 +197,6 @@ p{
     /* padding: 20px; */
 }
 
-
-
 .sale > div > img {
     max-width: 650px;
     /* max-width: 35%; */
@@ -207,8 +204,6 @@ p{
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
 }
-
-
 
 .pitch {
     align-content: center;
@@ -224,7 +219,6 @@ p{
     /* text-align: left; */
     /* animation: fadein 3s; */
 }
-
 
 .pitch-heading a {
     text-decoration: none;
@@ -242,38 +236,90 @@ p{
     font-size: 30px;
     display: flex;
     justify-content: end;
-
     text-decoration: none;
 }
 
-.collage {
-    justify-content: center;
-    display: flex;
-
-}
-
-.collage .group {
-    display: flex;
-    /* padding-left: 80px; */
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-}
+@media (max-width: 1467px) {
+    .background2 {
+        padding: 20px;
+    }
 
 
-.collage .group img {
-    max-width: 250px;
-    padding: 0%;
-    margin: 0%;
+    .sale {
+        display:inline;
+        align-content: center;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
     
-    /* display: flex; */
+    .sale > div > img {
+        max-width: 50%;
+        /* max-width: 35%; */
+        /* border-radius: 10px; */
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+    
+
+    .pitch h3 {
+        font-size: clamp(20px, 8vw, 60px);
+        line-height: 8vw;
+    }
+
+    .pitch {
+        align-content: center;
+        padding: 32px 32px;
+    }
+    
+    .pitch-heading {
+            /* display: inline-block; */
+        /* padding-right: 20px; */
+        /* padding-top: 50px; */
+        padding-bottom: 0px;
+        /* text-align: left; */
+        /* animation: fadein 3s; */
+    }
+    
+    .pitch-heading h3 {
+        line-height: 3rem;
+    }
+
+
+    .pitch-heading a {
+        text-decoration: none;
+        /* font-size: 60px; */
+    }
+    
+    .pitch .aboutPage {
+        padding: 0px;
+    }
+
+
+    .pitch .aboutPage h3 {
+        /* padding: 0px; */
+        margin: 0px;
+        font-size: 40px;
+        
+    }
+    
+    .pitch .aboutPage a {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        /* padding: 0px; */
+        
+    }
+
+    .sale img {
+        padding-bottom: 32px;
+    }
 }
 
 
 /* --------- About Me Page Styles ---------- */
 
-.aboutPage {
-    padding: 16px 32px 0px 32px;
-}
 
 .aboutMe {
     padding: 32px;
@@ -310,6 +356,28 @@ p{
 
 .bio div {
     align-content: center;
+}
+
+.collage {
+    justify-content: center;
+    display: flex;
+
+}
+
+.collage .group {
+    display: flex;
+    /* padding-left: 80px; */
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+
+.collage .group img {
+    max-width: 250px;
+    padding: 0%;
+    margin: 0%;
+    
+    /* display: flex; */
 }
 
 
