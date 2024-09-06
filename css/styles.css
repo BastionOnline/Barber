@@ -562,6 +562,9 @@ h4 {
     
 }
 
+.text-share {
+    padding-bottom: 8px;
+}
 
 .social-button {
     color: white; /* Text color */
