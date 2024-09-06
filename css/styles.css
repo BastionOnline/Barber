@@ -530,11 +530,9 @@ p{
 
     .endpoints a {
         font-size: clamp(30px, 1vw, 40px);
+
     }
 
-    .developer a {
-        font-size: 25px;
-    }
 }
 
 .endpoint-container {
