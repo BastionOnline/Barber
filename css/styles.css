@@ -604,6 +604,16 @@ h4 {
     background-color: #1DA1F2; /* Twitter blue background */
 }
 
+
+@media (max-width: 1467px) {
+    .social-button {
+        padding: 10px 20px; /* Padding inside the button */
+        font-size: 30px; /* Font size */
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+}
+
 .developer-container {
     display: flex;
     justify-content: center;
