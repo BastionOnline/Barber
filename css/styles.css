@@ -608,7 +608,7 @@ h4 {
 @media (max-width: 1467px) {
     .social-button {
         padding: 10px 20px; /* Padding inside the button */
-        font-size: 30px; /* Font size */
+        font-size: 15px; /* Font size */
         font-weight: 600;
         letter-spacing: 1px;
     }
