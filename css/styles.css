@@ -105,7 +105,7 @@ nav a {
 }
 
 @media (max-width: 1467px) {
-    .nav a {
+    nav a {
         font-size: clamp(50px, 1vw, 60px);
     }
 
