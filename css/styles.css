@@ -551,10 +551,10 @@ p{
     /* padding: 30px; */
 }
 
-h4 {
+.share-links h4 {
     margin:0;
     line-height: .4;
-    font-size: 30px;
+    font-size: 35px;
     padding: 5px 0px 20px 0px;
     
 }
