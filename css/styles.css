@@ -262,6 +262,32 @@ p{
     /* text-decoration: none; */
 }
 
+.availability {
+    padding: 32px;
+}
+
+.availability h3 {
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    /* padding-right: 32px; */
+    padding: 32px 32px;
+}
+
+.availability table{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 2em;
+    /* padding-right: 32px; */
+    padding: 0px 32px 0px 32px;
+}
+
+td {
+    width: 8em;
+    text-align: center;
+}
+
 @media (max-width: 1467px) {
     .background2 {
         padding: 20px;
